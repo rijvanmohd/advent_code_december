@@ -13,6 +13,8 @@ For example, suppose your expense report contained the following:
 In this list, the two entries that sum to 2020 are 1721 and 299. Multiplying them together produces 1721 * 299 = 514579, so the correct answer is 514579.
 '''
 
+# Sum of two items in a list equal to a total
+
 def find_product_of_two(arr,total):
   s = set()
   for each in arr:
@@ -27,6 +29,8 @@ The three entries that sum to 2020 are 979, 366, and 675. Multiplying them toget
 In your expense report, what is the product of the three entries that sum to 2020?
 
 '''
+
+# Sum of three items in a list equal to a total
     
 def find_product_of_triplets(arr,total):
   for i in range(0, len(arr)-1): 
